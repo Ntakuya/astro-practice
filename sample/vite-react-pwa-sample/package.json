@@ -1,0 +1,12 @@
+{
+  "name": "vite-react-pwa-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm  --parallel --filter \"./**\" dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

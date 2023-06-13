@@ -1,0 +1,14 @@
+{
+  "name": "react-prose-mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm  --parallel --filter \"./**\" dev",
+    "lint": "pnpm  --parallel --filter \"./**\" lint",
+    "lint:fix": "pnpm  --parallel --filter \"./**\" lint:fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
