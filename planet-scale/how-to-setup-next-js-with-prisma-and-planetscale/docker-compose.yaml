@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  db:
+    container_name: db_server
+    build:
+      context: ./docker
+      dockerfile: mysql.dockerfile
+    tty: true
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - db_volume:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: sample
+  adminer:
+    image: adminer
+    restart: always
+    networks:
+      - local
+    ports:
+      - 8080:8080
+
+networks:
+  local: {}
+
+volumes:
+  db_volume: {}

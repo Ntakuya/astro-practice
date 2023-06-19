@@ -1,7 +1,5 @@
 ## blog
 
-https://planetscale.com/blog/planetscale-mysql-database-on-prisma-platform
-https://planetscale.com/blog/how-to-setup-next-js-with-prisma-and-planetscale
 https://planetscale.com/blog/create-a-harry-potter-api-with-node-js-express-mysql-and-planetscale
 https://planetscale.com/blog/how-to-seed-a-database-with-prisma-and-next-js
 https://planetscale.com/blog/build-a-laravel-application-with-a-mysql-database
