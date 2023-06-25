@@ -1,6 +1,5 @@
 ## blog
 
-https://planetscale.com/blog/create-a-harry-potter-api-with-node-js-express-mysql-and-planetscale
 https://planetscale.com/blog/how-to-seed-a-database-with-prisma-and-next-js
 https://planetscale.com/blog/build-a-laravel-application-with-a-mysql-database
 https://planetscale.com/blog/how-we-made-planetscale-background-jobs-self-healing-with-sidekiq
