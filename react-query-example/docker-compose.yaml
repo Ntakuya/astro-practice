@@ -1,0 +1,29 @@
+version: "3"
+services:
+  db:
+    container_name: database
+    build:
+     context: ./database
+     dockerfile: postgresql.dockerfile
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - local
+  adminer:
+    image: adminer
+    container_name: database_adminer
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - local
+      
+networks:
+  local: {}
+volumes:
+  pg_data: {}
