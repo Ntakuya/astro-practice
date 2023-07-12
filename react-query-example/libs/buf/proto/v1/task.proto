@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message UUID {
+  string value = 1;
+};
+
+message Task {
+    int32 id = 1;
+    string taskUUID = 2; 
+    string title = 3;
+    string description = 4;
+    int32 authorId = 5;
+    string createdAt = 6;
+};
+
+message GetTaskRequest {
+    string taskUUID = 1;
+};
+
+message GetTaskListRequest {
+};
+
+service TaskService {
+    rpc getTask(GetTaskRequest) returns (Task) {}
+};

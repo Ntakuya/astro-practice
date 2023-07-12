@@ -1,0 +1,13 @@
+{
+  "name": "how-to-seed-a-database-with-prisma-and-next-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:studio": "pnpm -F app-api prisma:studio",
+    "api:serve": "pnpm -F app-api start:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

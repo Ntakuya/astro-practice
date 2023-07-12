@@ -9,9 +9,8 @@ const TASK_QUERY_KEYS = {
 
 export function useTaskList() {
   const { data: result, refetch } = useQuery(TASK_QUERY_KEYS.all(), {
-    queryFn: () => TaskAPI.findAll(),
+    queryFn: TaskAPI.findAll,
   });
-
   return { data: result ?? [], refetch };
 }
 

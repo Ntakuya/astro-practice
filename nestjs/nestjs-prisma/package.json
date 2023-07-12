@@ -1,0 +1,13 @@
+{
+  "name": "nestjs-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:dev": "pnpm --parallel --filter \"./apps/**\" start:dev",
+    "prisma:studio": "pnpm --parallel --filter ./apps/nestjs-prisma prisma:studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
